@@ -1,0 +1,1 @@
+web: gunicorn shift_diary_project.wsgi --log-file -
