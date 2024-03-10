@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-w2i=8@gwtg)*h9@@&@p9#_v$pmb29o3$@a_s=1ibr$k4zh16z+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -169,4 +169,5 @@ REST_FRAMEWORK = {
 if DEBUG:
     ALLOWED_HOSTS = ['localhost', '8000']
 else:
-    ALLOWED_HOSTS = ['.herokuapp.com']
+    ALLOWED_HOSTS = ['shiftdiary-3867e0a7858d.herokuapp.com', 'localhost', '127.0.0.1']
+
